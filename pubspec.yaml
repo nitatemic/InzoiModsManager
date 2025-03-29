@@ -1,0 +1,43 @@
+name: inzoi_mods_manager
+description: Mod manager for Inzoi game
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  file_picker: ^5.3.1
+  path: ^1.8.3
+  shared_preferences: ^2.2.0
+  intl: ^0.19.0
+  path_provider: ^2.0.15
+  flutter_svg: ^2.0.5
+  archive: ^3.4.10
+  desktop_drop: ^0.4.1
+  url_launcher: ^6.1.12
+  window_size:
+    git:
+      url: https://github.com/google/flutter-desktop-embedding.git
+      path: plugins/window_size
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/ModEnable/
+    - assets/ModEnable/BlueClient/
+    - assets/ModEnable/BlueClient/Binaries/
+    - assets/ModEnable/BlueClient/Binaries/Win64/
+    - assets/ModEnable/BlueClient/Binaries/Win64/bitfix/ 
