@@ -163,7 +163,7 @@ class SettingsDialog extends StatelessWidget {
                 message: localizations.french,
                 child: RadioListTile<String>(
                   title: Text(localizations.french),
-                  value: 'ko',
+                  value: 'fr',
                   groupValue: settingsProvider.currentLocale.languageCode,
                   onChanged: (value) {
                     if (value != null) {
