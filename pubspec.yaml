@@ -34,10 +34,10 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/
-    - assets/icons/
+    # - assets/images/
+    # - assets/icons/
     - assets/ModEnable/
     - assets/ModEnable/BlueClient/
     - assets/ModEnable/BlueClient/Binaries/
     - assets/ModEnable/BlueClient/Binaries/Win64/
-    - assets/ModEnable/BlueClient/Binaries/Win64/bitfix/ 
+    - assets/ModEnable/BlueClient/Binaries/Win64/bitfix/
