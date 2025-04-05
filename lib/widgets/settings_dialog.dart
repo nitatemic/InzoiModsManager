@@ -160,9 +160,9 @@ class SettingsDialog extends StatelessWidget {
           children: [
             Expanded(
               child: Tooltip(
-                message: localizations.korean,
+                message: localizations.french,
                 child: RadioListTile<String>(
-                  title: Text(localizations.korean),
+                  title: Text(localizations.french),
                   value: 'ko',
                   groupValue: settingsProvider.currentLocale.languageCode,
                   onChanged: (value) {

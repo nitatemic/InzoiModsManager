@@ -14,16 +14,16 @@ class AppLocalizations {
   }
 
   static const LocalizationsDelegate<AppLocalizations> delegate =
-      _AppLocalizationsDelegate();
+  _AppLocalizationsDelegate();
 
   late Map<String, String> _localizedStrings;
 
   Future<bool> load() async {
     if (locale.languageCode == 'ru') {
-      _localizedStrings = Translations.ru
+      _localizedStrings = Translations.ru;
     } else if (locale.languageCode == 'fr') {
       _localizedStrings = Translations.fr;
-    else {
+    } else {
       _localizedStrings = Translations.en;
     }
     return true;
